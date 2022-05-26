@@ -1,6 +1,6 @@
 import cv2
 
-cap = cv2.VideoCapture('video.avi')
+cap = cv2.VideoCapture('cars.avi')
 car_detector = cv2.CascadeClassifier('car.xml')
  
 while True:
